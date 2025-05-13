@@ -1,7 +1,7 @@
 /* estilos.css - Estilos base para Dulce Sabor */
 
 body {
-  background-color: #fff8f0;
+  background-color: #ddd0c2;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@ header, footer {
   text-align: center;
 }
 
-/* ✅ 1. Estilo para enlaces del menú */
+/* 1. Estilo para enlaces del menú */
 nav a {
   text-decoration: none;
   color: #4b2e2e;
@@ -29,12 +29,12 @@ nav a {
   font-weight: bold;
 }
 
-/* ✅ 2. Cambiar color al pasar el mouse */
+/* 2. Cambiar color al pasar el mouse */
 nav a:hover {
   color: #d16e6e;
 }
 
-/* ✅ 3. Estilo para productos */
+/* 3. Estilo para productos */
 .productos {
   display: flex;
   flex-wrap: wrap;
@@ -51,7 +51,7 @@ nav a:hover {
   text-align: center;
 }
 
-/* ✅ 4. Imágenes responsivas y uniformes */
+/* 4. Imágenes responsivas y uniformes */
 .producto img {
   width: 100%;
   height: 200px;
@@ -59,7 +59,7 @@ nav a:hover {
   border-radius: 8px;
 }
 
-/* ✅ 5. Botones */
+/* 5. Botones */
 button {
   background-color: #d16e6e;
   color: white;
@@ -70,10 +70,10 @@ button {
 }
 
 button:hover {
-  background-color: #b95858;
+  background-color: rgb(188, 7, 233);
 }
 
-/* ✅ Responsividad */
+/* Responsividad */
 @media (max-width: 600px) {
   .productos {
     flex-direction: column;
